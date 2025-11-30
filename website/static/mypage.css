@@ -21,6 +21,16 @@ body{
     justify-content: left;
 }
 
+.resultdiv
+{
+    max-height: 100px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .spacingBottom50PX
 {
     margin-bottom: 50px;

@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'sortAlgos',
     'rest_framework',
-    'website'
+    'website',
+    'database'
 ]
 
 MIDDLEWARE = [

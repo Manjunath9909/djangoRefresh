@@ -1,5 +1,7 @@
 from django.shortcuts import HttpResponse
 from algorithms.compareSortingAlgos import handler
+from django.http import JsonResponse
+import json
 
 # Create your views here.
 def homePageEmpty(request):

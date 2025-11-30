@@ -18,7 +18,7 @@ def bubbleSort(listofnums):
                 listofnums[j+1] = temp
         indextoIgnore -=1
 
-    jsonObject = json.dumps({'sortedList' : listofnums}, indent=2)
+    jsonObject = json.dumps({'sortedList' : listofnums, 'algo' : 'Bubble Sort', 'time' : '1s'}, indent=2)
     return jsonObject
 
 #selection sort
