@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'sortAlgos',
-    'rest_framework'
+    'rest_framework',
+    'website'
 ]
 
 MIDDLEWARE = [

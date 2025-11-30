@@ -1,11 +1,12 @@
 <!DOCTYPE html>
+{% load static %}
 <html>
     <head>
         <title>
             This is a page to call an API
         </title>
-        <link rel="stylesheet" href="mypage.css">
-        <script src="myscript.js"></script>
+        <link rel="stylesheet" href="{% static 'mypage.css' %}">
+        <script src="{% static 'myscript.js' %}"></script>
     </head>
     <body> 
         <div class="nav" id="navbar">
