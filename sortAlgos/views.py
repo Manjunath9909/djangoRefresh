@@ -7,4 +7,8 @@ def homePageEmpty(request):
     return HttpResponse("<h3>congrats on find the empty page stupid<h3>")
 
 def sortingPage(request):
-    return HttpResponse("<h3>Hello stupid world!! this is a page for a sorting algorithms<h3>")
+    numbers = request.GET.get("numbers", "NONE")
+    print(numbers)
+    
+    #sortType= request.GET.get("type", 1)
+    return HttpResponse("<h1>" + handler(1, numbers) + "</h1>")

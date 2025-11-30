@@ -1,11 +1,15 @@
 #handler function
 def handler(type, listofnumbers):
-    return True
+    
+    if type == 1:
+        return bubbleSort(listofnumbers)
 
 
 #bubble sort
 def bubbleSort(listofnums):
-    return True
+    for x in listofnums:
+        x = 10
+    return listofnums
 
 #selection sort
 def selectionSort(listofnums):
